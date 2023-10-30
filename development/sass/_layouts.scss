@@ -1,0 +1,17 @@
+@use "./variables" as *;
+
+.header {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact{
+    min-height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primary;
+}

@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+.header {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #28527a;
+}
+
+.button {
+  display: block;
+  width: 100px;
+  background-color: #f0a500;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fafafa;
+}
+
+.navigation {
+  height: 10vh;
+  background-color: #28527a;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation .logo {
+  color: #fafafa;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+
+.intro {
+  text-align: center;
+}
+.intro .heading {
+  color: #28527a;
+  font-size: 50px;
+}
+.intro .sub-heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin: 20px 0;
+}
+.intro .button {
+  margin: 0 auto;
+}
+
+.wave {
+  fill-opacity: 1;
+  fill: #28527a;
+  margin-bottom: -1px;
+  vertical-align: bottom;
+}
+
+.form {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.form .input {
+  margin-bottom: 20px;
+}
+.form .button {
+  background-color: #55a5f0;
+  margin: 0 auto;
+  width: 100%;
+  border: none;
+}
+
+/* my form not charlies - did not work as i couldnt center it and i didnt do it in the wave lol fml */
+#fcf-form {
+  display: flex;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  border: 1px solid #000000;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+.fcf-body {
+  text-align: left;
+}
+
+.fcf-form-group {
+  margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.fcf-btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.fcf-btn:focus, .fcf-btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.fcf-btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.fcf-btn-lg, .fcf-btn-group-lg > .fcf-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.1rem;
+}
+
+.fcf-btn-block {
+  display: block;
+  width: 100%;
+}
+
+.fcf-btn-block + .fcf-btn-block {
+  margin-top: 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+  color: #333333;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
