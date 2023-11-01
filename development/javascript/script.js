@@ -17,3 +17,10 @@ if (greeting == "Hello") {
 }
 
 }
+
+function convertMinutesToSeconds(event) {
+    const minutesInput = event.target.value;
+
+    const secondsValue = 60 * minutesInput;
+    alert(secondsValue)
+}
