@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculaor</title>
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div>
+        <h1> Grade Calculator</h1>
+        <input type="text" onblur="handleCalculateGrade(event)"/>
+    </div>
+    <div>
+        <h1> Neg or Pos? </h1>
+        <input type="number" onblur="handleNegOrPos(event)"/>
+    </div>
+    <div>
+        <h1> How many days until weekend? </h1>
+        <input type="text" onblur="handleDaysUntilWeekend(event)"/>
+    </div>
+
+    <div>
+        <h1> How much do the veggies cost in the supermarket? </h1>
+        <select id = "myList" onchange = "handleVegPricePerKg(event)" >  
+            <option case="Potatoes"> Potatoes </option>  
+            <option> Carrots </option>  
+            <option case="Brocolli"> Brocolli </option>  
+            <option case="Cabbage"> Cabbage </option>  
+            <option case="Asparagus"> Asparagus </option>  
+            </select>  
+
+    </div>
+    
+</body>
+</html>
