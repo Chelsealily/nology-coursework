@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "nology-coursework",
+			"path": "nology-coursework"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Web Project 1 (Dada)",
+		"liveServer.settings.port": 5501
+	}
+}
