@@ -19,10 +19,18 @@
   background-color: #1182eb;
 }
 
+header {
+  text-align: center;
+}
+
 body {
   background-color: rgb(251, 251, 251);
   max-width: 1400px;
   margin: auto;
+}
+
+.card {
+  text-align: center;
 }
 
 footer {

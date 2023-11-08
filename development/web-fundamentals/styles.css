@@ -67,3 +67,36 @@ span {
     font-size: 1.5em;
     color: #b48ce0;
 }
+
+.row-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row-3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.line::before {
+  content: "";
+  background-color: black;
+  height: 50px;
+  width: 5px;
+  position: absolute;
+  top: -50px;
+}
+
+.line-left::before {
+  right: 50px;
+}
+
+.line-right::before {
+  left: 50px;
+  
+}
