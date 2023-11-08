@@ -95,15 +95,27 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  display: inline-flexbox;
-  justify-content: center;
-  align-items: center;
   border-radius: 10px;
   font-weight: bold;
   width: 100px;
 }
 
 .card {
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+  display: inline-flexbox;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.button-DadVice {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.lowercard {
   padding: 15px;
   text-align: center;
   margin: auto;
@@ -130,6 +142,12 @@ body {
 .row-4 {
   display: flex;
   justify-content: space-evenly;
+}
+
+.button-signup {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
 }
 
 footer {
