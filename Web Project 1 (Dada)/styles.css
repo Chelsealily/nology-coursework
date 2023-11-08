@@ -19,8 +19,16 @@
   background-color: #1182eb;
 }
 
-header {
-  text-align: center;
+h2, h4 {
+  color: rgb(0, 200, 255);
+}
+
+h3 {
+  color: rgb(21, 39, 44);
+}
+
+p {
+  color: rgb(57, 70, 73);
 }
 
 body {
@@ -37,4 +45,5 @@ footer {
   background-color: lightyellow;
   max-width: 1400px;
   margin: auto;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

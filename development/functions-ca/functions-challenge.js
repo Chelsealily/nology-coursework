@@ -1,3 +1,4 @@
+/*
 // create function that shows true if pos and false if neg
 
 function isNumberPositive(num) {
@@ -7,6 +8,8 @@ function isNumberPositive(num) {
         console.log (false);
     }    
 } 
+
+
 
 isNumberPositive(-1);
 isNumberPositive(10); 
@@ -37,10 +40,47 @@ getLargestNumber(6,2,3);
 // getLastName(["Ash","Stu"]); // returns "Stu"
 
 let getLastName = ["Charlie", "Rob", "Andy"];
-    let lastItem = getLastName[getLastName.length - 1];
+   let lastItem = getLastName[getLastName.length - 1];
 console.log (lastItem);
 
 
+// different approach? 
+
+var test = [];
+var i;
+
+ function getLastName (input1) {
+    
+    for (i = 0; i < input1.length;){
+        var test = [];
+        test.push(input1[i]);
+        i++
+    }
+
+    console.log(test);
+ }
+
+ getLastName(["Ash","Stu"])
+ getLastName(["Charlie", "Rob", "Andy"])
+ ;
+*/
+ // another way? 
+
+
+function getLastName (input1) {
+    for (i = 0; i < input1.length; ){
+        if (i = (input1.length - 1)) {
+            console.log(input1[i]);
+        } else {
+                console.log("") }
+        i++
+        }
+    }
+
+getLastName(["Ash","Stu"])
+getLastName(["Charlie", "Rob", "Andy"])
+
+/*
 // write a function that takes an array of numbers and returns true if all numbers are pos but false if one of more numbers are negative in the array.
 // allNumbersPositive([2,4,5]); // returns true
 // allNumbersPositive([-5,4,6]); // returns false
@@ -53,6 +93,6 @@ if (Math.sign(v1,v2,v3) === 1) {
     console.log (false);
 }    
 } 
-
+ }
 allNumbersPositive(2,4,5);
-allNumbersPositive(-5,4,6);
+allNumbersPositive(-5,4,6); */
