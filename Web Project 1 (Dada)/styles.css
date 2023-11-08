@@ -2,4 +2,25 @@
   section div {
     width: 100%;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+*::-moz-selection {
+  color: white;
+  background-color: #1182eb;
+}
+
+*::selection {
+  color: white;
+  background-color: #1182eb;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+  max-width: 1400px;
+  margin: auto;
 }/*# sourceMappingURL=styles.css.map */
