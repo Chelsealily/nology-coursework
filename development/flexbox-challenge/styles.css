@@ -1,0 +1,65 @@
+
+* {
+    text-align: center;
+}
+
+header {
+    height: 10vh;
+    background-color: rgb(187, 187, 251);
+    
+}
+
+nav, article {
+    height: calc(90vh / 5 );
+
+}
+
+nav {
+    background-color: rgb(227, 178, 178);
+}
+
+
+article {
+    background-color: rgb(169, 182, 150);
+}
+
+/* MEDIA QUERY FOR TAB SCREEN */
+
+@media screen and (min-width: 768px) {
+     header, nav {
+        height: 20vh;
+    }
+
+    main {
+        display: flex;
+    }
+    article {
+        height: 60vh;
+        flex:1
+    }
+}
+
+/* MEDIA QUERY FOR DESKTOP SCREEN*/
+
+@media screen and (min-width: 1440px) {
+    .head-nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;   
+    }
+
+    header, nav {
+        height: calc(100vh/2);
+        width: 33%;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        align-items: flex-end;
+        width: 66%;
+        height:  calc(100vh/4);
+    
+}
+}

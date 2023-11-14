@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 56px;
+    background-color: blue;
+}
+
+nav, main, aside {
+    height: calc((100vh - 56px) / 3 );
+
+}
+
+nav {
+    background-color: rgb(202, 202, 202);
+}
+
+main {
+    background-color: rgb(224, 240, 255);
+}
+
+aside {
+    background-color: rgb(169, 182, 150);
+}
+
+/* MEDIA QUERY FOR LARGER SCREEN */
+
+@media screen and (min-width: 768px) {
+    .content-container {
+        display: flex;
+    }
+}
+
+nav, main, aside {
+    height: calc(100vh - 56px);
+
+}
+
+nav, aside {
+    flex: 1;
+}
+
+main {
+    flex:2;
+}
