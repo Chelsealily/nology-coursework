@@ -3,6 +3,14 @@
   width: 326px;
   height: 516px;
 }
+.header .header__h1 {
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 64px;
+}
 
 .footer {
   background-color: black;

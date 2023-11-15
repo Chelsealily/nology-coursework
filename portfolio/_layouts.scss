@@ -3,6 +3,16 @@
 .header {
     width: 326px;
     height: 516px;
+
+&__h1 {
+        padding-top: 50px;
+        font-size: 20px;
+
+    }
+}
+
+&__h2 {
+    font-size: 64px;
 }
 
 .footer {
