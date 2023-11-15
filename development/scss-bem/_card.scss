@@ -32,3 +32,158 @@
         background-color: $primary-color;
     }*/
 }
+
+
+.allcards {
+    display: flex;
+
+}
+
+.cardj {
+    background-color: $tertiary-color;
+    height: 650px;
+    margin: 20px 20px auto;
+    width: 500px;
+    border: 1px solid black;
+
+    .cardj__image {
+        width: 100%;
+        height: 350px;
+    }
+
+    &__title {
+        font-size: 40px;
+        padding: 30px 20px 20px 20px;
+    }
+    &__description {
+        color: $gray-color;
+        font-size: 15px;
+        padding: 20px;
+
+    }
+    
+    &__button1 {
+        background-color: $black-color;
+        color: $tertiary-color;
+        text-decoration: none;
+        padding: 15px 30px;
+        margin-left: 20px;
+        display: inline-block;
+             
+
+        &--info {
+            background-color: $tertiary-color;
+            color: $black-color;
+            text-decoration: none;
+            border: 1px solid black;
+            padding: 15px 30px;
+            margin-left: 20px;
+            display: inline-block;
+        }
+
+    }
+}
+
+.cardg {
+    background-color: $tertiary-color;
+    height: 650px;
+    margin: 20px 20px auto;
+    width: 500px;
+    border: 1px solid black;
+
+    .cardg__image {
+        width: 100%;
+        height: 350px;
+    }
+
+    &__title {
+        font-size: 40px;
+        padding: 30px 20px 20px 20px;
+    }
+    &__description {
+        color: $gray-color;
+        font-size: 15px;
+        padding: 20px;
+
+    }
+    
+    &__button1 {
+        background-color: $black-color;
+        color: $tertiary-color;
+        text-decoration: none;
+        padding: 15px 30px;
+        margin-left: 20px;
+        display: inline-block;
+             
+
+        &--info {
+            background-color: $tertiary-color;
+            color: $black-color;
+            text-decoration: none;
+            border: 1px solid black;
+            padding: 15px 30px;
+            margin-left: 20px;
+            display: inline-block;
+        }
+
+    }
+}
+
+.cardc {
+    background-color: $tertiary-color;
+    height: 650px;
+    margin: 20px 20px auto;
+    width: 500px;
+    border: 1px solid black;
+
+    .cardc__image {
+        width: 100%;
+        height: 350px;
+    }
+
+    &__title {
+        display: inline-block;
+        font-size: 40px;
+        padding: 30px 20px 20px 20px;
+    }
+    &__description {
+        color: $gray-color;
+        font-size: 15px;
+        padding: 20px;
+
+    }
+
+    &__minibutton {
+        background-color: $lightgray-color;
+        color: $gray-color;
+        padding: 10px 15px;
+        border-radius: 15px;
+
+        &--bg {
+            background-color: #00ffb2;
+            font-weight: bold;
+        }
+
+    }
+    
+    &__button1 {
+        background-color: $black-color;
+        color: $tertiary-color;
+        text-decoration: none;
+        padding: 15px 30px;
+        margin-left: 20px;
+        display: inline-block;
+             
+
+        &--info {
+            background-color: $tertiary-color;
+            color: $black-color;
+            text-decoration: none;
+            border: 1px solid black;
+            padding: 15px 30px;
+            margin-left: 20px;
+            display: inline-block;
+        }
+
+    }
+}

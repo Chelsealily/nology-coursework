@@ -14,5 +14,56 @@
       </div>
     </section>
 
+    <section class="allcards">
+        <section>
+        <div class="cardj">
+            <img class="cardj__image" src="./japan (1).jpg" alt="mount fuji" >
+          <h2 class="cardj__title">Japan</h2>
+          <p class="cardj__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, iusto unde. Minus error vitae omnis aspernatur nesciunt alias officia vero, magnam maiores nostrum veniam sit repudiandae, excepturi provident iusto voluptates.</p>
+          <a href="#" class="cardj__button1">Book Now</a>
+          <a href="#" class="cardj__button1 cardj__button1--info">More Info</a>
+        </div>
+      </section>
+
+      <section>
+        <div class="cardg">
+            <img class="cardg__image" src="./germany.jpg" alt="brandenburg gate" >
+          <h2 class="cardg__title">Germany</h2>
+          <p class="cardg__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, iusto unde. Minus error vitae omnis aspernatur nesciunt alias officia vero, magnam maiores nostrum veniam sit repudiandae, excepturi provident iusto voluptates.</p>
+          <a href="#" class="cardg__button1">Book Now</a>
+          <a href="#" class="cardg__button1 cardg__button1--info">More Info</a>
+        </div>
+      </section>
+
+      <section>
+        <div class="cardc">
+            <img class="cardc__image" src="./canada.jpg" alt="mountains" >
+          <h2 class="cardc__title">Canada</h2>
+          <a href="#" class="cardc__minibutton cardc__minibutton--bg">On Sale</a>
+          <a href="#" class="cardc__minibutton">Adventure</a>
+          <a href="#" class="cardc__minibutton">Hiking</a>
+          <p class="cardc__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, iusto unde. Minus error vitae omnis aspernatur nesciunt alias officia vero, magnam maiores nostrum veniam sit repudiandae, excepturi provident iusto voluptates.</p>
+          <a href="#" class="cardc__button1">Book Now</a>
+          <a href="#" class="cardc__button1 cardc__button1--info">More Info</a>
+        </div>
+      </section>
+    </section>
+
+      <section>
+        <!-- BEM-STYLED WITH CLASSES-AVOIDS ISSUES WITH SPECIFICITY-->
+        <!--BLOCK-->
+        <form class="form">
+            <!--BLOCK__ELEMENT TIED TO BLOCK - DOES NOT MAKE SENSE OUT OF BLOCK-->
+            <img class="form__image" src="https://placehold.co/200x200" />
+            <label class="form__label" for="name">Name</label>
+            <input class="form__input" type="text" id="name" />
+            <label class="form__label" for="email">Email</label>
+            <input class= "form__input" type="email" id="email" />
+            <button class="form__button">Submit</button>
+            <!--BLOCK__ELEMENT--MODIFIER SAME BUT SLIGHTLY DIFF-->
+            <button class="form__button form__button--active">Cancel</button>
+          </form>
+      </section>
+
   </body>
 </html>
