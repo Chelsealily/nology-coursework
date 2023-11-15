@@ -1,0 +1,23 @@
+@use "./variables" as *;
+
+.header {
+    width: 326px;
+    height: 516px;
+}
+
+.footer {
+    background-color: $color-black;
+    height:216px;
+    width: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+    .footer__email {
+        padding-top: 20px;
+        color: $color-white;
+        
+    }
+
+}

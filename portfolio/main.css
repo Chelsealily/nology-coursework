@@ -1,8 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+.header {
+  width: 326px;
+  height: 516px;
+}
+
+.footer {
+  background-color: black;
+  height: 216px;
+  width: 428px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer__email {
+  padding-top: 20px;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
-  color: black;
 }/*# sourceMappingURL=main.css.map */
