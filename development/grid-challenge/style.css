@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+* {
+    font-family: outfit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 5rem;
+    background-color: black;
+    color: white;
+  }
+
+nav {
+  height: 5rem;
+  background-color: rgb(241, 188, 83);
+  color: white;
+  text-align: center;
+    }
+
+main {
+    height: 40rem;
+    background-color: rgb(186, 183, 177);
+    color: white;
+    text-align: center;
+     }
+
+     
+aside {
+        background-color: rgb(218, 148, 7);
+        color: white;
+        text-align: center;
+    }
+
+footer {
+        height: 5rem;
+        background-color: black;
+        color: white;
+      }
+
+      
+        .grid-container {
+            display: grid;
+            grid-template-areas: 
+            "header header header header"
+            "aside nav nav nav"
+            "aside main main main"
+            "footer footer footer footer";
+            grid-gap:10px;
+        }
+
+        header {
+            grid-area: header;
+        }
+
+        nav {
+            grid-area:nav;
+        }
+
+        aside {
+            grid-area: aside;
+        }
+
+        main {
+            grid-area: main;
+        }
+
+        footer {
+            grid-area: footer;
+        }
+    
+
+        @media screen and (max-width: 767px) {
+            aside {
+                display:none;
+            }
+
+            nav, main {
+            width: 100vw;
+               
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas: 
+            "header header header header"
+            "nav nav nav nav"
+            "main main main main"
+            "footer footer footer footer";
+            grid-gap:10px;
+        }
+    }
