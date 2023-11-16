@@ -1,18 +1,32 @@
 @use "./variables" as *;
 
 .header {
-    width: 326px;
+    width: 100vw;
     height: 516px;
+    margin: 30px 30px auto;
 
 &__h1 {
-        padding-top: 50px;
+        padding-top: 30px;
         font-size: 20px;
-
     }
-}
+
 
 &__h2 {
     font-size: 64px;
+    line-height: 76.5px;
+    padding-top: 20px;
+}
+}
+
+.about {
+    width: 100vw;
+    height: 1281px;
+    margin: 30px 30px auto;
+
+&__h3 {
+    font-size: 32px;
+}
+
 }
 
 .footer {
@@ -24,7 +38,7 @@
     justify-content: center;
     align-items: center;
         
-    .footer__email {
+&__email {
         padding-top: 20px;
         color: $color-white;
         

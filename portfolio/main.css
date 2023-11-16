@@ -1,15 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 .header {
-  width: 326px;
+  width: 100vw;
   height: 516px;
+  margin: 30px 30px auto;
 }
-.header .header__h1 {
-  padding-top: 50px;
+.header__h1 {
+  padding-top: 30px;
   font-size: 20px;
 }
-
-h2 {
+.header__h2 {
   font-size: 64px;
+  line-height: 76.5px;
+  padding-top: 20px;
+}
+
+.about {
+  width: 100vw;
+  height: 1281px;
+  margin: 30px 30px auto;
+}
+.about__h3 {
+  font-size: 32px;
 }
 
 .footer {
@@ -21,7 +32,7 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.footer .footer__email {
+.footer__email {
   padding-top: 20px;
   color: white;
 }
