@@ -7,6 +7,7 @@
 .header__h1 {
   padding-top: 30px;
   font-size: 20px;
+  background-color: linen;
 }
 .header__h2 {
   font-size: 64px;
@@ -25,6 +26,8 @@
   font-size: 32px;
   text-align: center;
   padding-bottom: 20px;
+  -webkit-text-decoration: underline 8px solid salmon;
+          text-decoration: underline 8px solid salmon;
 }
 .about__image {
   width: 80vw;
@@ -44,6 +47,8 @@
   font-size: 32px;
   text-align: center;
   padding-bottom: 20px;
+  -webkit-text-decoration: underline 8px solid salmon;
+          text-decoration: underline 8px solid salmon;
 }
 .skills__description {
   margin: 10px;
@@ -59,12 +64,17 @@
   font-size: 32px;
   text-align: center;
   padding-bottom: 20px;
+  -webkit-text-decoration: underline 8px solid salmon;
+          text-decoration: underline 8px solid salmon;
+}
+.project__title__cards {
+  display: flex;
 }
 
 .footer {
   background-color: black;
   height: 216px;
-  width: 100vw;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,6 +89,10 @@
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  width: 70vw;
 }
 
 * {
