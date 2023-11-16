@@ -31,6 +31,8 @@
 }
 .about__image {
   width: 80vw;
+  border-radius: 2%;
+  margin-left: 30px;
 }
 .about__text {
   margin: 10px;
@@ -52,7 +54,7 @@
 }
 .skills__description {
   margin: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .project {
@@ -63,12 +65,9 @@
 .project__title {
   font-size: 32px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   -webkit-text-decoration: underline 8px solid salmon;
           text-decoration: underline 8px solid salmon;
-}
-.project__title__cards {
-  display: flex;
 }
 
 .footer {
@@ -89,10 +88,37 @@
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(3, 1fr);
+  padding-top: 30px;
 }
 
 .card {
   width: 70vw;
+  height: 550px;
+  margin: 20px;
+}
+.card__image {
+  width: 100%;
+}
+.card__subtitle {
+  font-weight: bold;
+  font-size: 15px;
+}
+.card__title {
+  font-size: 30px;
+  margin: 0;
+}
+.card__icons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.card__button {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: 2px solid rgb(218, 178, 93);
+  padding: 10px 25px;
+  border-radius: 15%;
 }
 
 * {

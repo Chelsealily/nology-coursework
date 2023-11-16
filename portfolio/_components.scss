@@ -4,9 +4,46 @@
     display: grid;
     grid-gap:30px;
     grid-template-columns: repeat(3,1fr);
+    padding-top: 30px;
 }
 
 //project section cards
 .card {
     width: 70vw;
+    height: 550px;
+    margin: 20px;
+    
+
+&__image {
+        width: 100%;
+     }
+
+&__subtitle {
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+&__title {
+    font-size: 30px;
+    margin:0;
+}
+
+&__icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+&__button {
+            background-color: $color-white;
+            color: $color-black;
+            text-decoration: none;
+            border: 2px solid rgb(218, 178, 93);
+            padding: 10px 25px;
+            border-radius: 15%;
+        
+        
+}
+
 }
