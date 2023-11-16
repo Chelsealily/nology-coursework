@@ -60,6 +60,18 @@
 
 }
 
+.project {
+    width: 70vw;
+    padding-top: 70px;
+    padding-bottom: 30px;
+
+&__title {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+}
+
 .footer {
     background-color: $color-black;
     height:216px;
