@@ -31,6 +31,23 @@
 }
 .about__text {
   margin: 10px;
+  padding-top: 30px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+}
+.skills__title {
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.skills__description {
+  margin: 10px;
+  padding-bottom: 20px;
 }
 
 .footer {
@@ -47,8 +64,13 @@
   color: white;
 }
 
+.skills__grid {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;

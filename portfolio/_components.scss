@@ -1,2 +1,8 @@
 @use "./variables" as *;
 
+.skills__grid {
+    display: grid;
+    grid-gap:30px;
+    grid-template-columns: repeat(3,1fr);
+}
+
