@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 .header {
   width: 70vw;
-  height: 600px;
+  height: 580px;
   display: block;
 }
 .header__h1 {
@@ -13,6 +13,10 @@
   font-size: 55px;
   padding-top: 20px;
   width: 65vw;
+}
+.header__h2--highlight {
+  -webkit-text-decoration: rgba(95, 158, 160, 0.576) double underline 8px;
+          text-decoration: rgba(95, 158, 160, 0.576) double underline 8px;
 }
 
 .about {
@@ -71,7 +75,7 @@
 }
 
 .footer {
-  background-color: rgb(59, 59, 59);
+  background-color: rgb(46, 46, 46);
   height: 216px;
   width: 70vw;
   display: flex;
