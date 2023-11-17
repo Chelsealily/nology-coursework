@@ -87,6 +87,9 @@
   -webkit-text-decoration: underline 8px solid salmon;
           text-decoration: underline 8px solid salmon;
 }
+.project__cards2 {
+  display: none;
+}
 
 .footer {
   background-color: rgb(46, 46, 46);
