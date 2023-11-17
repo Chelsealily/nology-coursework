@@ -39,8 +39,17 @@
 
 }
 
-.header {
+.header__image {
+    display:unset;
+    position: absolute;
+    top: 370px;
+    right: 95px;
+}
+
+.header__h1 {
+    display:none;
+}
+}
+
+
     
-}
-      
-}
