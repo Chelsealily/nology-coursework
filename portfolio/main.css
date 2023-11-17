@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 .header {
-  width: 100vw;
-  height: 516px;
-  margin: 30px auto;
+  width: 70vw;
+  height: 600px;
+  display: block;
 }
 .header__h1 {
   padding-top: 30px;
@@ -10,13 +10,13 @@
   background-color: linen;
 }
 .header__h2 {
-  font-size: 64px;
-  line-height: 76.5px;
+  font-size: 55px;
   padding-top: 20px;
+  width: 65vw;
 }
 
 .about {
-  width: 70vw;
+  width: 65vw;
   height: 1281px;
   display: flex;
   flex-direction: column;
@@ -28,11 +28,11 @@
   padding-bottom: 20px;
   -webkit-text-decoration: underline 8px solid salmon;
           text-decoration: underline 8px solid salmon;
+  width: 60vw;
 }
 .about__image {
-  width: 80vw;
+  width: 60vw;
   border-radius: 2%;
-  margin-left: 30px;
 }
 .about__text {
   margin: 10px;
@@ -43,7 +43,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70vw;
+  width: 65vw;
 }
 .skills__title {
   font-size: 32px;
@@ -71,9 +71,9 @@
 }
 
 .footer {
-  background-color: black;
+  background-color: rgb(59, 59, 59);
   height: 216px;
-  width: 90vw;
+  width: 70vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,7 +92,7 @@
 }
 
 .card {
-  width: 70vw;
+  width: 60vw;
   height: 550px;
   margin: 17px;
 }
