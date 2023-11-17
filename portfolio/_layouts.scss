@@ -2,7 +2,7 @@
 
 .header {
     width: 70vw;
-    height: 580px;
+    height: 650px;
     display: block;
     
         
@@ -16,6 +16,7 @@
 &__h2 {
     font-size: 55px;
     padding-top: 20px;
+    padding-bottom: 20px;
     width: 65vw;
 
     &--highlight {
@@ -23,7 +24,17 @@
     }
 }
 
+&__button {
+            background-color: $color-white;
+            color: $color-black;
+            text-decoration: none;
+            border: 2px solid rgb(218, 178, 93);
+            padding: 10px 25px;
+            border-radius: 5%;
+}    
 }
+
+
 
 .about {
     width: 65vw;

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 .header {
   width: 70vw;
-  height: 580px;
+  height: 650px;
   display: block;
 }
 .header__h1 {
@@ -12,11 +12,20 @@
 .header__h2 {
   font-size: 55px;
   padding-top: 20px;
+  padding-bottom: 20px;
   width: 65vw;
 }
 .header__h2--highlight {
   -webkit-text-decoration: rgba(95, 158, 160, 0.576) double underline 8px;
           text-decoration: rgba(95, 158, 160, 0.576) double underline 8px;
+}
+.header__button {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: 2px solid rgb(218, 178, 93);
+  padding: 10px 25px;
+  border-radius: 5%;
 }
 
 .about {
