@@ -92,6 +92,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top-style: double;
+  border-top-color: salmon;
+  border-top-width: 7px;
 }
 .footer__email {
   padding-top: 20px;
@@ -100,7 +103,7 @@
 
 .skills__grid {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   padding-top: 30px;
 }

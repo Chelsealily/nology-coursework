@@ -5,6 +5,7 @@
     height: 650px;
     display: block;
     
+    
         
 &__h1 {
         padding-top: 30px;
@@ -111,6 +112,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top-style: double;
+    border-top-color: salmon;
+    border-top-width: 7px;
         
 &__email {
         padding-top: 20px;
