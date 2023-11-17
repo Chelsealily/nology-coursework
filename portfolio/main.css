@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
-.nav {
-  display: none;
-}
-
 .header {
-  width: 70vw;
+  width: 100vw;
   height: 650px;
   display: block;
 }
@@ -17,7 +13,7 @@
   font-size: 55px;
   padding-top: 20px;
   padding-bottom: 30px;
-  width: 65vw;
+  width: 80vw;
 }
 .header__h2--highlight {
   -webkit-text-decoration: rgba(95, 158, 160, 0.576) double underline 8px;
@@ -33,7 +29,7 @@
 }
 
 .about {
-  width: 65vw;
+  width: 90vw;
   height: 1281px;
   display: flex;
   flex-direction: column;
@@ -42,14 +38,16 @@
 .about__h3 {
   font-size: 32px;
   text-align: center;
+  padding-top: 20px;
   padding-bottom: 20px;
   -webkit-text-decoration: underline 8px solid salmon;
           text-decoration: underline 8px solid salmon;
-  width: 60vw;
+  width: 100vw;
 }
 .about__image {
-  width: 60vw;
+  width: 80vw;
   border-radius: 2%;
+  margin-left: 30px;
 }
 .about__text {
   margin: 10px;
@@ -60,7 +58,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 65vw;
+  width: 90vw;
   padding-bottom: 20px;
   background-color: linen;
 }
@@ -76,9 +74,11 @@
 }
 
 .project {
-  width: 65vw;
+  width: 90vw;
   padding-top: 70px;
   padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
 }
 .project__title {
   font-size: 32px;
@@ -94,7 +94,7 @@
 .footer {
   background-color: rgb(46, 46, 46);
   height: 216px;
-  width: 70vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,7 +116,7 @@
 }
 
 .card {
-  width: 60vw;
+  width: 80vw;
   height: 550px;
   margin: 17px;
 }
@@ -145,31 +145,21 @@
   border-radius: 15%;
 }
 
-@media screen and (min-width: 768px) {
-  .grid-container {
-    grid-template-areas: "header header header header" "aside nav nav nav" "aside main main main" "footer footer footer footer";
-    grid-template-rows: 1fr 1fr 7fr 1fr;
-    grid-template-columns: 1fr 4fr;
-  }
-  header {
-    grid-area: header;
-  }
-  nav {
-    grid-area: nav;
-  }
-  main {
-    grid-area: main;
-  }
-  aside {
-    grid-area: aside;
-    display: unset;
-  }
-  footer {
-    grid-area: footer;
-  }
-}
 * {
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
+}
+
+.nav {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    gap: 0.5rem;
+  }
 }/*# sourceMappingURL=main.css.map */

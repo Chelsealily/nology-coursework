@@ -1,11 +1,33 @@
 @use "./variables" as *;
 @use "./layouts";
 @use "./components";
-@use "./desktopversion";
 
 * {
     padding: 0;
     box-sizing: border-box;
     font-family: $font-body;
+}    
+
+
+.nav {
+        display:none;
+    }
+
+
+
+
+@media screen and (min-width: 768px) {
     
-}
+   
+.grid-container {
+        display: grid;
+        height: 100vh;
+        width: 100vw;
+        gap: 0.5rem;  
+    
+        }
+        
+        
+      }
+      
+      
