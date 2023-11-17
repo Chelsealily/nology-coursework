@@ -8,9 +8,6 @@
   height: 650px;
   display: block;
 }
-.header__image {
-  display: none;
-}
 .header__h1 {
   padding-top: 30px;
   font-size: 20px;
