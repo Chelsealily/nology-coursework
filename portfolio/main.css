@@ -117,19 +117,21 @@
 }
 .nav__logo {
   color: salmon;
-  font-size: 2.5em;
+  font-size: 1.8em;
   font-weight: bold;
   text-transform: uppercase;
 }
 .nav__button {
   background-color: white;
-  color: black;
+  color: rgb(46, 46, 46);
   text-decoration: none;
   padding: 10px 25px;
   border-radius: 15%;
+  font-size: 1em;
 }
 .nav__button--touch {
   border: 2px solid rgb(218, 178, 93);
+  color: black;
 }
 
 .skills__grid {
@@ -176,6 +178,10 @@
 }
 
 .nav {
+  display: none;
+}
+
+.header__image {
   display: none;
 }
 
