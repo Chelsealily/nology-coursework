@@ -108,6 +108,30 @@
   color: white;
 }
 
+.nav {
+  font-weight: bold;
+  width: 90vw;
+  height: 50px;
+  background-color: white;
+  margin-top: 10px;
+}
+.nav__logo {
+  color: salmon;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav__button {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 15%;
+}
+.nav__button--touch {
+  border: 2px solid rgb(218, 178, 93);
+}
+
 .skills__grid {
   display: grid;
   grid-gap: 10px;
@@ -161,5 +185,10 @@
     height: 100vh;
     width: 100vw;
     gap: 0.5rem;
+  }
+  .nav {
+    display: unset;
+    display: flex;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=main.css.map */
