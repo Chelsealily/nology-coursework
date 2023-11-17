@@ -1,6 +1,7 @@
 @use "./variables" as *;
 @use "./layouts";
 @use "./components";
+@use "./desktopversion";
 
 * {
     padding: 0;

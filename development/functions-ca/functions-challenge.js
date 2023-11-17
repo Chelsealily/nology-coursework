@@ -1,5 +1,4 @@
-/*
-// create function that shows true if pos and false if neg
+/* // create function that shows true if pos and false if neg
 
 function isNumberPositive(num) {
     if (Math.sign(num) === 1) {
@@ -8,8 +7,6 @@ function isNumberPositive(num) {
         console.log (false);
     }    
 } 
-
-
 
 isNumberPositive(-1);
 isNumberPositive(10); 
@@ -63,7 +60,7 @@ var i;
  getLastName(["Ash","Stu"])
  getLastName(["Charlie", "Rob", "Andy"])
  ;
-*/
+
  // another way? 
 
 
@@ -80,7 +77,8 @@ function getLastName (input1) {
 getLastName(["Ash","Stu"])
 getLastName(["Charlie", "Rob", "Andy"])
 
-/*
+*/
+
 // write a function that takes an array of numbers and returns true if all numbers are pos but false if one of more numbers are negative in the array.
 // allNumbersPositive([2,4,5]); // returns true
 // allNumbersPositive([-5,4,6]); // returns false
@@ -93,6 +91,6 @@ if (Math.sign(v1,v2,v3) === 1) {
     console.log (false);
 }    
 } 
- }
+ 
 allNumbersPositive(2,4,5);
-allNumbersPositive(-5,4,6); */
+allNumbersPositive(-5,4,6); 

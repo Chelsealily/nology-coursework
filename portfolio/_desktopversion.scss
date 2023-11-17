@@ -1,0 +1,34 @@
+@use "./variables" as *;
+
+@media screen and (min-width: 768px) {
+    .grid-container {
+      grid-template-areas:
+        "header header header header"
+        "aside nav nav nav"
+        "aside main main main"
+        "footer footer footer footer";
+      grid-template-rows: 1fr 1fr 7fr 1fr;
+      grid-template-columns: 1fr 4fr;
+    }
+  
+    header {
+      grid-area: header;
+    }
+  
+    nav {
+      grid-area: nav;
+    }
+  
+    main {
+      grid-area: main;
+    }
+  
+    aside {
+      grid-area: aside;
+      display: unset;
+    }
+  
+    footer {
+      grid-area: footer;
+    }
+  }

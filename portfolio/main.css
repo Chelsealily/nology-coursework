@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+.nav {
+  display: none;
+}
+
 .header {
   width: 70vw;
   height: 650px;
   display: block;
+}
+.header__image {
+  display: none;
 }
 .header__h1 {
   padding-top: 30px;
@@ -138,6 +145,29 @@
   border-radius: 15%;
 }
 
+@media screen and (min-width: 768px) {
+  .grid-container {
+    grid-template-areas: "header header header header" "aside nav nav nav" "aside main main main" "footer footer footer footer";
+    grid-template-rows: 1fr 1fr 7fr 1fr;
+    grid-template-columns: 1fr 4fr;
+  }
+  header {
+    grid-area: header;
+  }
+  nav {
+    grid-area: nav;
+  }
+  main {
+    grid-area: main;
+  }
+  aside {
+    grid-area: aside;
+    display: unset;
+  }
+  footer {
+    grid-area: footer;
+  }
+}
 * {
   padding: 0;
   box-sizing: border-box;
