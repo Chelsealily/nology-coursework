@@ -205,10 +205,18 @@
     display: none;
   }
   .about {
-    display: unset;
+    display: grid;
+    grid-gap: 10px;
   }
   .about__image {
     width: 30%;
+    float: right;
+  }
+  .about__text {
+    font-size: x-large;
+  }
+  .about__text:after {
+    clear: both;
   }
   .skills {
     width: 95vw;
