@@ -45,7 +45,7 @@
 }
 
 .about__image {
-    width: 25%;
+    width: 30%;
 
 }
 
@@ -54,17 +54,28 @@
     border-radius: 5%;
 }
 
+.project {
+    width:90vw;
+}
+
 .project__grid {
     display: grid;
     grid-gap:10px;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     padding-top: 30px;
+    width: 88vw;
     
 }
 
-&__cards2 {
+.project__cards2 {
     display: unset;
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: auto auto auto;
+    padding-top: 30px;
+    width:88vw;
+    padding-bottom: 120px;
     } 
 
 .card {
