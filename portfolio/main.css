@@ -213,7 +213,7 @@
     float: right;
   }
   .about__text {
-    font-size: x-large;
+    font-size: 22px;
   }
   .about__text:after {
     clear: both;
@@ -244,5 +244,25 @@
   }
   .card {
     display: unset;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-areas: "nav nav nav nav" "header header header header" "main main main main" "aside aside aside aside " "footer footer footer footer";
+    grid-gap: 10px;
+  }
+  header {
+    grid-area: header;
+  }
+  nav {
+    grid-area: nav;
+  }
+  aside {
+    grid-area: aside;
+  }
+  main {
+    grid-area: main;
+  }
+  footer {
+    grid-area: footer;
   }
 }/*# sourceMappingURL=main.css.map */
