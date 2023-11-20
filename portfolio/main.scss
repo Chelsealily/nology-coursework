@@ -22,20 +22,10 @@
 
 @media screen and (min-width: 768px) {
     
-   
-.grid-container {
-        display: grid;
-        height: 100vh;
-        width: 100vw;
-        gap: 0.5rem;  
-    
-        }
-
 .nav {
     display: unset;
     display:flex;
     justify-content: space-between;    
-        
 
 }
 
@@ -50,11 +40,12 @@
     display:none;
 }
 
-// need to sort this out somehow .about {
-   
+.about {
+    display: unset;
+}
 
 .about__image {
-    width: 20vh;
+    width: 25%;
 
 }
 
@@ -64,20 +55,20 @@
 }
 
 .project__grid {
-    display: inline-grid;
+    display: grid;
     grid-gap:10px;
     grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
     padding-top: 30px;
     
 }
-
 
 &__cards2 {
     display: unset;
     } 
 
 .card {
-    width:unset;
+    display: unset;
 }
 
 }
