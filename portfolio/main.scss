@@ -53,15 +53,32 @@
 // need to sort this out somehow .about {
    
 
-
-
 .about__image {
     width: 20vh;
 
 }
 
-.project__cards2 {
-    display: unset;
+.skills {
+    width: 95vw;
+    border-radius: 5%;
 }
+
+.project__grid {
+    display: inline-grid;
+    grid-gap:10px;
+    grid-template-columns: auto auto auto;
+    padding-top: 30px;
+    
+}
+
+
+&__cards2 {
+    display: unset;
+    } 
+
+.card {
+    width:unset;
+}
+
 }
     
